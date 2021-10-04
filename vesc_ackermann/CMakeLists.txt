@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   nodelet
   pluginlib
   roscpp
+  rospy
   nav_msgs
   std_msgs
   geometry_msgs
@@ -19,6 +20,7 @@ catkin_package(
     nodelet
     pluginlib
     roscpp
+    rospy
     nav_msgs
     std_msgs
     geometry_msgs
